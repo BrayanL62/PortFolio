@@ -1,6 +1,7 @@
 .carte {
-    display: inline-block;
+    display: block;
     height: 415px;
+    min-width: 270px;
     max-width: 270px;
     background-color: #FEE9DF;
     opacity: 0.8;
@@ -8,15 +9,13 @@
     border-radius: 0.2rem;
     padding: 10px 20px;
     box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5), -4px -4px 6px rgba(0, 0, 0, 0.5);
+    margin: 60px auto;
 
     
 
-    &__scroll {
-        height: 550px;
-        overflow-x: scroll;
-        overflow-y: hidden;
-    
-    }
+    // &__scroll {
+    //     overflow-x: scroll;    
+    // }
   
     &__img {
       display: block;
