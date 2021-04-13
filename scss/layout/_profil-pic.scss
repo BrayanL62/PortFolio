@@ -1,0 +1,26 @@
+.profil_pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 70px;
+
+
+    &__picture {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #f1f1f1;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+
+    &__link:hover {
+        color: white;
+    }
+}

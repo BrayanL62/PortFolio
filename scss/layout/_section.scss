@@ -1,0 +1,63 @@
+.carte {
+    display: inline-block;
+    height: 415px;
+    max-width: 270px;
+    background-color: #FEE9DF;
+    opacity: 0.8;
+    margin:  60px;
+    border-radius: 0.2rem;
+    padding: 10px 20px;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5), -4px -4px 6px rgba(0, 0, 0, 0.5);
+
+    
+
+    &__scroll {
+        height: 550px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    
+    }
+  
+    &__img {
+      display: block;
+      width: 50px;
+      margin: auto;
+      margin-top: 10px;
+    }
+
+    &__title {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    &__paragraphe {
+        margin-top: 20px;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    &--list {
+        margin-top: 10px;
+        font-family: 'Roboto', sans-serif;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    &--about, &--projets {
+        // margin-top: 40px;
+        line-height: 1.6rem;
+        text-align: center;
+        font-weight: 300;
+    }
+    &--link {
+        color: black;
+        font-weight: 600;
+    }
+    &--link:hover {
+        color: black;
+    }
+
+}
