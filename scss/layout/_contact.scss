@@ -1,0 +1,20 @@
+.form {
+    &__name {
+        display: inline-block;
+        width: 110px;
+        margin: 10px auto;
+    }
+    &__mail {
+        margin: 10px auto;
+    }
+    &__msg {
+        margin: 10px auto 0;
+        border-radius: 0.2rem;
+        resize: none;
+    }
+    &__btn {
+        display: block;
+        margin:  5px auto;
+        
+    }
+}

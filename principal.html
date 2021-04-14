@@ -69,7 +69,18 @@
             <section class="carte carte--last">
                 <img class="carte__img" src="css/image/contact.svg" alt="Logo">
                 <h2 class="carte__title">Contact</h2>
-                <p class="carte__paragraphe"></p>
+                <form method="GET" class="form">
+                    <input type="text" name="lastname" id="lastname" placeholder="Nom" class="form__name" required>
+
+                    <input type="text" name="name" id="name" placeholder="Prénom" class="form__name" required>
+
+                    <input type="text" name="mail" id="name" placeholder="Mail" class="form__mail" required>
+
+                    <textarea name="message" id="message" cols="22" placeholder=" Message" rows="7" class="form__msg" required></textarea>
+
+                    <input type="submit" value="Envoyer" class="form__btn">
+                    
+                </form>
             </section>
         </div>
         </main>
