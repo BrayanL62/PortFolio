@@ -50,6 +50,8 @@
         -o-transition: all 1.5s ease;
         /* Opera */
         transition: all 1.5s ease;
+        height: 500px;
+        max-width: 320px;
     }
 
     .carte:hover {
@@ -62,5 +64,11 @@
         -o-transform: scale(1.25);
         /* Opera */
         transform: scale(1.25);
+    }
+
+    .form  {
+        &__btn {
+            margin: 20px auto;
+        }
     }
 }
