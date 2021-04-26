@@ -5,5 +5,5 @@ window.onfocus = function() {
 };
 
 window.onblur = function() {
-    document.title = "Revenez, vous me manquez!";
+    document.title = "JB le meilleur <3";
 };
