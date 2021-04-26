@@ -1,7 +1,7 @@
 const title = document.title;
 
 window.onfocus = function() {
-    document.title = "Portfolio de Brayan";
+    document.title = "Loucher Brayan - Web Developer";
 };
 
 window.onblur = function() {
