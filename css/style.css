@@ -800,7 +800,7 @@ h1 {
   .profil__pic__link:hover {
     color: white; }
 
-.carte {
+.card {
   display: block;
   height: 450px;
   min-width: 200px;
@@ -812,34 +812,34 @@ h1 {
   padding: 10px 20px;
   box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5), -4px -4px 6px rgba(0, 0, 0, 0.5);
   margin: 60px auto; }
-  .carte__img {
+  .card__img {
     display: block;
     width: 50px;
     margin: auto;
     margin-top: 10px; }
-  .carte__title {
+  .card__title {
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     margin-top: 5px; }
-  .carte__paragraphe {
+  .card__paragraphe {
     margin-top: 20px;
     font-size: 0.9rem;
     text-align: center; }
-  .carte--list {
+  .card--list {
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
     list-style-type: none;
     text-align: center; }
-  .carte--about, .carte--projets {
+  .card--about, .card--projets {
     line-height: 1.6rem;
     text-align: center;
     font-weight: 300; }
-  .carte--link {
+  .card--link {
     color: black;
     font-weight: 600; }
-  .carte--link:hover {
+  .card--link:hover {
     color: black; }
 
 .form__name {
@@ -877,7 +877,7 @@ h1 {
     font-weight: bold; }
 
 @media screen and (min-width: 600px) {
-  .carte__scroll {
+  .card__scroll {
     display: flex;
     margin: 10%auto;
     flex-wrap: wrap; }
@@ -885,7 +885,7 @@ h1 {
     font-size: 2rem; } }
 
 @media screen and (min-width: 1150px) {
-  .carte {
+  .card {
     -webkit-transition: all 1s ease;
     /* Safari et Chrome */
     -moz-transition: all 1s ease;
@@ -895,7 +895,7 @@ h1 {
     -o-transition: all 1s ease;
     /* Opera */
     transition: all 1s ease; }
-  .carte:hover {
+  .card:hover {
     -webkit-transform: scale(1.1);
     /* Safari et Chrome */
     -moz-transform: scale(1.1);
@@ -909,7 +909,7 @@ h1 {
     font-size: 3rem; } }
 
 @media screen and (min-width: 1500px) {
-  .carte {
+  .card {
     -webkit-transition: all 1.5s ease;
     /* Safari et Chrome */
     -moz-transition: all 1.5s ease;
@@ -921,7 +921,7 @@ h1 {
     transition: all 1.5s ease;
     height: 500px;
     max-width: 320px; }
-  .carte:hover {
+  .card:hover {
     -webkit-transform: scale(1.25);
     /* Safari et Chrome */
     -moz-transform: scale(1.25);
