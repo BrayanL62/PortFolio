@@ -1,5 +1,5 @@
 @media screen and (min-width: 600px) {
-    .carte__scroll {
+    .card__scroll {
         display: flex;
         margin: 10%auto;
         flex-wrap: wrap;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 1150px) {
-    .carte {
+    .card {
         -webkit-transition: all 1s ease;
         /* Safari et Chrome */
         -moz-transition: all 1s ease;
@@ -22,7 +22,7 @@
         transition: all 1s ease;
     }
 
-    .carte:hover {
+    .card:hover {
         -webkit-transform: scale(1.1);
         /* Safari et Chrome */
         -moz-transform: scale(1.1);
@@ -40,7 +40,7 @@
 }
 
 @media screen and (min-width: 1500px) {
-    .carte {
+    .card {
         -webkit-transition: all 1.5s ease;
         /* Safari et Chrome */
         -moz-transition: all 1.5s ease;
@@ -54,7 +54,7 @@
         max-width: 320px;
     }
 
-    .carte:hover {
+    .card:hover {
         -webkit-transform: scale(1.25);
         /* Safari et Chrome */
         -moz-transform: scale(1.25);
